@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online store - product page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/202ff6a2e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+
+    <nav class="navbar bg">
+        <ul class="link-container">
+            <li class="link-item"><a href="#" class="link active">home</a></li>
+            <li class="link-item"><a href="#" class="link">product</a></li>
+            <li class="link-item"><a href="#" class="link">about</a></li>
+            <li class="link-item"><a href="#" class="link">contact</a></li>
+        </ul>
+        <div class="user-interactions">
+            <div class="cart">
+                <i class="fa-regular fa-user"></i>
+                <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- product details section -->
+
+    <section class="product-section">
+        <img src="img/product-part.png" class="product-image" alt="">
+        <div class="products-details">
+            <div class="product-title">premium sofa</div>
+            <p class="product-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eligendi fugiat
+                iste nisi voluptates consequatur?</p>
+            <div class="ratings">
+                <img src="img/star-1.png" class="star" alt="">
+                <img src="img/star-1.png" class="star" alt="">
+                <img src="img/star-1.png" class="star" alt="">
+                <img src="img/star-1.png" class="star" alt="">
+                <img src="img/no-staar.png" class="star" alt="">
+                <span class="rating-count">4,023 review</span>
+            </div>
+            <div class="price">$ 499</div>
+            <div class="btn-container">
+                <button class="product-btn buy-btn">buy now</button>
+                <button class="product-btn cart-btn">add to cart </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="details-des">
+        <div class="section-title">details</div>
+        <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laboriosam dignissimos assumenda
+            corporis aperiam illo et sit similique nulla adipisci nesciunt eaque vel error reprehenderit ipsa a, cumque
+            consequuntur labore explicabo nisi qui optio. Facilis voluptate ipsum tenetur, ducimus voluptatibus fuga cum
+            fugiat id tempora deleniti at, accusantium quis! At ut corporis quidem architecto velit, voluptas distinctio
+            veritatis voluptatum natus maxime quae perspiciatis delectus iure cumque est, eum esse magnam facilis
+            blanditiis atque. Enim praesentium consequuntur <br><br> dolorem tempora, deserunt tenetur, ex soluta, possimus rerum
+            alias magni? Ut maiores placeat consequatur quibusdam necessitatibus ad perspiciatis id ratione velit
+            facilis. Necessitatibus rem nulla rerum expedita praesentium odit, reprehenderit cupiditate. Voluptates
+            temporibus quasi quaerat quae quis rerum, ex natus, quia enim, nesciunt excepturi? Quisquam vero quae velit
+            fuga corporis at iusto eos id optio, assumenda et itaque enim minima numquam modi adipisci deleniti, omnis
+            autem unde commodi ipsam! Numquam, debitis magni. Repellat, doloribus.</p>
+    </section>
+    <!-- review section -->
+
+    <section class="review-section">
+        <div class="section-title">reviews</div>
+        <div class="review-conatainer">
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/review-2.jpg" alt=""></div>
+                <h2 class="review-title">best quality more than my expectation</h2>
+                <p class="review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quae doloremque
+                    explicabo animi unde voluptatem.</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/review-2.jpg" alt=""></div>
+                <h2 class="review-title">best quality more than my expectation</h2>
+                <p class="review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quae doloremque
+                    explicabo animi unde voluptatem.</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/review-2.jpg" alt=""></div>
+                <h2 class="review-title">best quality more than my expectation</h2>
+                <p class="review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quae doloremque
+                    explicabo animi unde voluptatem.</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/review-2.jpg" alt=""></div>
+                <h2 class="review-title">best quality more than my expectation</h2>
+                <p class="review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quae doloremque
+                    explicabo animi unde voluptatem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- add review form -->
+
+    <section class="add-review-section">
+        <div class="section-title">add a review</div>
+        <input type="text" class="review-heading" placeholder="review headling">
+        <textarea placeholder="review" class="review-field"></textarea>
+        <p class="rating-text">how much you liked the product</p>
+        <div class="star-container">
+                <img src="img/no-staar.png" class="rating-star" alt="">
+                <img src="img/no-staar.png" class="rating-star" alt="">
+                <img src="img/no-staar.png" class="rating-star" alt="">
+                <img src="img/no-staar.png" class="rating-star" alt="">
+                <img src="img/no-staar.png" class="rating-star" alt="">
+        </div>
+        <button class="add-review-btn">add review</button>
+    </section>
+
+
+    <!-- best selling products -->
+
+    <section class="best-selling-product-section">
+        <div class="section-title">similar products</div>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="img/product-1.jpg" class="product-img" alt="">
+                <p class="product-name">BEDS -> </p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product-2.jpg" class="product-img" alt="">
+                <p class="product-name">TABLES -> </p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product-3.jpg" class="product-img" alt="">
+                <p class="product-name">CHAIRS -> </p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/product-4.jpg" class="product-img" alt="">
+                <p class="product-name">SOFAS -> </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>made by dhiraj kumar</footer>
+
+    <script src="js/product.js"></script>
+
+</body>
+
+</html>

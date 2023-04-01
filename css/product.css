@@ -1,0 +1,151 @@
+.review-section .section-title {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.product-section {
+    width: 100%;
+    margin-top: 120px;
+    padding: 0 5vw;
+    display: flex;
+    gap: 40px;
+}
+
+.product-image {
+    width: 70%;
+    height: 585px;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 60px;
+    text-transform: uppercase;
+} 
+
+.product-des {
+    margin: 30px 0;
+    font-family: 'lato', sans-serif;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ratings {
+    display: flex;
+}
+
+.ratings .star {
+    width: 30px;
+    height: 30px;
+}
+
+.rating-count {
+    font-family: 'lato', sans-serif;
+    opacity: 0.4;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.price {
+    font-size: 60px;
+    margin: 30px 0;
+}
+
+.product-btn {
+   padding: 15px 40px;
+   border: none;
+   outline: none;
+   color: #fff;
+   margin-top: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   text-transform: capitalize;
+}
+
+.buy-btn {
+    background-color: #a98a47;
+}
+
+
+.cart-btn {
+    background-color: #190c05;
+}
+
+.details-des, .add-review-section {
+    width: 100%;
+    padding: 100px 5vw 0;
+}
+
+.section-title {
+    font-size: 25px;
+    padding: 10px 0;
+    text-transform: uppercase;
+} 
+
+.des {
+     font-family: 'lato', sans-serif;
+     line-height: 30px;
+     font-size: 20px;
+     opacity: 0.5;
+} 
+
+
+.review-heading, .review-field {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #c9c9c9;
+    margin: 10px 0;
+    padding: 10px;
+    line-height: 40px;
+    font-family: 'lato', sans-serif;
+    color: #000;
+    outline: none;
+}
+
+::placeholder {
+    color: #453e3e;
+    text-transform: capitalize;
+}
+
+.review-field {
+    height: 160px;
+    resize: none;
+    padding: 0 10px;
+}
+
+.review-heading:focus,
+.review-field:focus {
+    border-color: #a98a47;
+}
+
+.review-heading::placeholder,
+.review-field::placeholder {
+    color: #a98a47;
+}
+
+.rating-text {
+    font-family: 'lato', sans-serif;
+    color: #989393;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.rating-star {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.add-review-btn {
+    border: none;
+    outline: none;
+    background: #a98a47;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    cursor: pointer;
+}
